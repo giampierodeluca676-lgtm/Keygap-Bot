@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keygap Neural Ultra | Copy Trading Istituzionale</title>
+    <title>Keygap Neural Ultra</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        /* Palette colori 100% chiara e ad alto contrasto */
         :root { 
             --bg: #f8fafc; 
             --card: #ffffff; 
             --primary: #2563eb; 
             --accent: #059669; 
-            --text-main: #1e293b; /* Testo principale scuro e leggibile */
-            --text-muted: #475569; /* Testo secondario chiaro ma ben contrastato */
+            --text-main: #1e293b; 
+            --text-muted: #475569; 
             --border: #e2e8f0; 
         }
         body { background-color: var(--bg); color: var(--text-main); font-family: 'Inter', sans-serif; line-height: 1.6; }
@@ -29,9 +28,7 @@
         .btn-primary-custom:hover { background: #1d4ed8; color: white; }
         .step-icon { width: 55px; height: 55px; background: rgba(37, 99, 235, 0.1); color: var(--primary); display: flex; align-items: center; justify-content: center; border-radius: 50%; margin-bottom: 25px; font-size: 1.3rem; font-weight: 900; }
         .demo-badge { background: rgba(37, 99, 235, 0.1); color: var(--primary); border: 1px solid rgba(37, 99, 235, 0.2); padding: 6px 18px; border-radius: 20px; font-size: 0.8rem; font-weight: 800; }
-        
-        /* Stile specifico per la card del prezzo, ora su sfondo bianco */
-        .price-card { background: var(--card); border: 2px solid var(--primary); box-shadow: 0 10px 30px -10px rgba(37, 99, 235, 0.2); }
+        .telegram-card { background: var(--card); border: 2px solid #0088cc; box-shadow: 0 10px 30px -10px rgba(0, 136, 204, 0.2); }
     </style>
 </head>
 <body>
@@ -39,18 +36,18 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand fw-900 fs-4" href="#">KEYGAP <span style="color:var(--primary)">ULTRA</span></a>
-            <div class="ms-auto"><span class="demo-badge">COPY TRADING V4.0</span></div>
+            <div class="ms-auto"><span class="demo-badge">VIRTUAL NODE V4.0</span></div>
         </div>
     </nav>
 
     <header class="hero-section text-center">
         <div class="container">
-            <h1 class="display-3 fw-900 mb-4">Il tuo conto BingX, guidato dall'Intelligenza Neurale.</h1>
+            <h1 class="display-3 fw-900 mb-4">La Potenza Neurale sul tuo Conto Virtuale.</h1>
             <p class="lead text-muted mb-5 mx-auto fs-5" style="max-width: 750px; font-weight: 600;">
-                Nessun software da installare. Nessun computer da tenere acceso. Collega il tuo conto tramite API e lascia che il nostro Master Node operi sul mercato EURUSD in totale autonomia.
+                Collega il tuo conto BingX in modalità Demo (VST) al nostro Master Node. Nessun software da installare, esecuzione automatizzata e latenza zero. Sperimenta la tecnologia istituzionale senza rischi.
             </p>
             <div class="d-flex justify-content-center gap-3">
-                <a href="#workflow" class="btn-primary-custom shadow">Collega il tuo Conto</a>
+                <a href="#telegram-setup" class="btn-primary-custom shadow">Richiedi l'Accesso al Nodo</a>
             </div>
         </div>
     </header>
@@ -59,74 +56,59 @@
         <div class="row g-4 text-center text-md-start">
             <div class="col-md-4">
                 <div class="card-custom">
-                    <i class="fas fa-lock mb-3 text-primary fa-2x"></i>
-                    <h4 class="fw-bold" style="color: var(--text-main);">Sicurezza Assoluta</h4>
-                    <p class="text-muted" style="font-weight: 500;">I tuoi fondi restano sul tuo conto BingX. Richiediamo solo i permessi di "Trading". Nessun permesso di prelievo.</p>
+                    <i class="fas fa-shield-alt mb-3 text-primary fa-2x"></i>
+                    <h4 class="fw-bold" style="color: var(--text-main);">Ambiente Protetto</h4>
+                    <p class="text-muted" style="font-weight: 500;">Il sistema opera esclusivamente in ambiente simulato (Demo VST) su BingX. Richiediamo solo l'accesso API di base, blindando la tua sicurezza.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card-custom">
                     <i class="fas fa-bolt mb-3 text-primary fa-2x"></i>
                     <h4 class="fw-bold" style="color: var(--text-main);">Zero Latenza</h4>
-                    <p class="text-muted" style="font-weight: 500;">Esecuzione istantanea sincronizzata con il nostro Master Node. Apriamo e chiudiamo le posizioni simultaneamente.</p>
+                    <p class="text-muted" style="font-weight: 500;">Esecuzione istantanea sincronizzata con il nostro Master Node in cloud. Le posizioni si replicano con precisione millimetrica.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card-custom">
-                    <i class="fas fa-shield-alt mb-3 text-primary fa-2x"></i>
-                    <h4 class="fw-bold" style="color: var(--text-main);">Capitale Isolato</h4>
-                    <p class="text-muted" style="font-weight: 500;">Gestione del rischio millimetrica. Impostiamo il bot per operare solo con la frazione di capitale che decidi tu.</p>
+                    <i class="fas fa-microchip mb-3 text-primary fa-2x"></i>
+                    <h4 class="fw-bold" style="color: var(--text-main);">Gestione del Rischio</h4>
+                    <p class="text-muted" style="font-weight: 500;">Impostiamo l'algoritmo per operare con parametri di salvaguardia rigorosi, garantendo un controllo costante sull'operatività virtuale.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container py-5 my-5">
-        <div class="card-custom price-card p-5 border-0 shadow-lg">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h2 class="fw-900 mb-4 text-primary">Quota di Connessione Una Tantum</h2>
-                    <p class="text-muted fs-5" style="font-weight: 500;">
-                        Non tratteniamo percentuali sui tuoi profitti e non ci sono abbonamenti mensili. 
-                        Per collegare il tuo conto al nostro nodo Neurale richiediamo solo un contributo di setup di <strong style="color: var(--text-main);">5 USDT</strong>. 
-                        Questo garantisce il mantenimento dei server e lo sviluppo continuo dell'algoritmo.
-                    </p>
+    <section id="telegram-setup" class="container py-5 my-5">
+        <div class="card-custom telegram-card p-5 border-0 shadow-lg text-center">
+            <h2 class="fw-900 mb-4" style="color: #0088cc;"><i class="fab fa-telegram me-2"></i>Inizia l'Onboarding Ufficiale</h2>
+            <p class="text-muted fs-5 mx-auto mb-5" style="max-width: 700px; font-weight: 500;">
+                Per garantire la massima trasparenza e fornirti tutte le informative legali sul servizio Demo, l'intera procedura di attivazione è gestita dal nostro assistente virtuale su Telegram.
+            </p>
+            
+            <div class="row justify-content-center g-4 mb-5">
+                <div class="col-md-3">
+                    <div class="fw-bold" style="color: var(--text-main);">1. Avvia il Bot</div>
+                    <p class="small text-muted">Clicca sul link e avvia la chat.</p>
                 </div>
-                <div class="col-lg-4 text-center mt-4 mt-lg-0">
-                    <div style="font-size: 4rem; color: var(--primary); font-weight: 900;">5 USDT</div>
-                    <div style="font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-weight: 800;">Setup Iniziale</div>
+                <div class="col-md-3">
+                    <div class="fw-bold" style="color: var(--text-main);">2. Leggi i Termini</div>
+                    <p class="small text-muted">Accetta le condizioni del servizio Demo.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="fw-bold" style="color: var(--text-main);">3. Ricevi Istruzioni</div>
+                    <p class="small text-muted">Ottieni i passaggi per connettere le API.</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="workflow" class="container py-5 mb-5">
-        <h3 class="text-center fw-900 mb-5 fs-2">Come Iniziare in 3 Passi</h3>
-        <div class="row g-4 text-center">
-            <div class="col-md-4">
-                <div class="step-icon mx-auto">1</div>
-                <h5 class="fw-bold" style="color: var(--text-main);">Crea le API su BingX</h5>
-                <p class="text-muted" style="font-weight: 500;">Genera una API Key e una Secret Key sul tuo conto BingX. Abilita <strong>esclusivamente</strong> il permesso di Trading.</p>
-            </div>
-            <div class="col-md-4">
-                <div class="step-icon mx-auto">2</div>
-                <h5 class="fw-bold" style="color: var(--text-main);">Quota di Setup</h5>
-                <p class="text-muted" style="font-weight: 500;">Invia 5 USDT al nostro indirizzo Crypto ufficiale per l'attivazione a vita del tuo slot sul server.</p>
-            </div>
-            <div class="col-md-4">
-                <div class="step-icon mx-auto">3</div>
-                <h5 class="fw-bold" style="color: var(--text-main);">Connessione Node</h5>
-                <p class="text-muted" style="font-weight: 500;">Inviaci le tue API Key e la ricevuta. Ti collegheremo al Master Node ed entro 24h vedrai partire le prime operazioni.</p>
-            </div>
+            <a href="https://t.me/TUO_BOT_TELEGRAM" class="btn px-5 py-3 shadow-sm text-white" style="background-color: #0088cc; border-radius: 12px; font-weight: 800; font-size: 1.1rem; text-decoration: none;">
+                Avvia l'Onboarding su Telegram
+            </a>
         </div>
     </section>
 
     <footer class="text-center py-5" style="border-top: 1px solid var(--border); background-color: white;">
         <div class="container">
-            <h4 class="fw-bold mb-3" style="color: var(--text-main);">Pronto ad automatizzare le tue entrate?</h4>
-            <p class="text-muted mb-4 fs-5" style="font-weight: 500;">Contattaci direttamente sui nostri canali per ricevere l'indirizzo di pagamento e inviare le tue API.</p>
-            <a href="https://t.me/TUO_CANALE_TELEGRAM" class="btn btn-outline-primary px-4 py-3 shadow-sm" style="border-radius: 12px; font-weight: 800; border-width: 2px;"><i class="fab fa-telegram me-2"></i> Contatta Giampiero</a>
-            <p class="text-muted small mt-5 m-0" style="font-weight: 600;">© 2026 Keygap Neural Trading System. Il trading comporta rischi.</p>
+            <p class="text-muted small m-0" style="font-weight: 600;">© 2026 Keygap Neural Trading System.<br>Il servizio è fornito a scopo esclusivamente dimostrativo e didattico in ambiente simulato (VST). Nessuna garanzia di rendimento futuro.</p>
         </div>
     </footer>
 
