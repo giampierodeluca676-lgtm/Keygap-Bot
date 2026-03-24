@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keygap Neural Ultra | Institutional Trading Bot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --bg: #050505; --card: #0f1115; --primary: #2962ff; --accent: #089981; --text: #d1d4dc; --muted: #787b86; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; }
+        .navbar { background: rgba(5, 5, 5, 0.8); backdrop-filter: blur(10px); border-bottom: 1px solid #1c2127; }
+        .hero-section { padding: 120px 0 80px; background: radial-gradient(circle at top right, rgba(41, 98, 255, 0.1), transparent); }
+        .fw-900 { font-weight: 900; letter-spacing: -1px; }
+        .card-custom { background: var(--card); border: 1px solid #1c2127; border-radius: 20px; padding: 30px; transition: 0.3s; height: 100%; }
+        .card-custom:hover { border-color: var(--primary); transform: translateY(-5px); }
+        .btn-primary-custom { background: var(--primary); color: white; border: none; padding: 15px 35px; border-radius: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+        .step-icon { width: 50px; height: 50px; background: rgba(41, 98, 255, 0.1); color: var(--primary); display: flex; align-items: center; justify-content: center; border-radius: 50%; margin-bottom: 20px; font-size: 1.2rem; font-weight: 900; }
+        .demo-badge { background: rgba(8, 153, 129, 0.1); color: var(--accent); border: 1px solid var(--accent); padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; font-weight: 800; }
+        .footer { padding: 60px 0; border-top: 1px solid #1c2127; margin-top: 80px; }
+        .download-btn { background: #1e2329; border: 1px solid #2b3139; color: white; padding: 15px; border-radius: 12px; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; transition: 0.2s; }
+        .download-btn:hover { background: #2b3139; border-color: var(--primary); color: white; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-900" href="#">KEYGAP <span style="color:var(--primary)">ULTRA</span></a>
+            <div class="ms-auto">
+                <span class="demo-badge">V4.0 NEURAL ENGINE</span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-900 mb-3">Domina il mercato EURUSD con l'Intelligenza Neurale.</h1>
+            <p class="lead text-muted mb-5 mx-auto" style="max-width: 700px;">
+                Il primo trading bot di ultima generazione con gestione del capitale isolata e analisi della volatilità in tempo reale. Semplice, potente, tuo per sempre.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#download" class="btn btn-primary-custom">Scarica ora</a>
+                <a href="#vision" class="btn btn-outline-light px-4 py-3 border-secondary" style="border-radius:12px; font-weight:700;">Scopri la Vision</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mb-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card-custom">
+                    <i class="fas fa-brain mb-3 text-primary fa-2x"></i>
+                    <h4>Neural Engine</h4>
+                    <p class="text-muted">Analisi adattiva della volatilità. Il bot regola leva e filtri RSI istantaneamente seguendo il respiro del mercato.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-custom">
+                    <i class="fas fa-shield-alt mb-3 text-primary fa-2x"></i>
+                    <h4>Capitale Isolato</h4>
+                    <p class="text-muted">Sicurezza totale. Il sistema opera esclusivamente sul capitale che decidi tu, proteggendo il resto del tuo conto.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-custom">
+                    <i class="fas fa-chart-line mb-3 text-primary fa-2x"></i>
+                    <h4>Real-Time Sync</h4>
+                    <p class="text-muted">Sincronizzazione millimetrica con BingX. Visualizza profitti netti, margini e performance sulla tua dashboard pro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="container py-5 my-5">
+        <div class="card-custom p-5 border-0 shadow-lg" style="background: linear-gradient(145deg, #0f1115, #050505);">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-900 mb-4">La nostra Vision</h2>
+                    <p class="text-muted">
+                        Non vendiamo sogni, ma tecnologia. La licenza demo ha un costo simbolico di <strong>5 USDT</strong>. 
+                        Questo contributo non è un pagamento per il software, ma un investimento diretto nello sviluppo continuo e nel potenziamento dell'algoritmo neurale per la community. 
+                        Crediamo in un trading accessibile, professionale e trasparente.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="value-neural" style="font-size: 3rem; color: var(--accent);">5 USDT</div>
+                    <div class="label-pro">Contributo Sviluppo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <h3 class="text-center fw-900 mb-5">Come Attivare Keygap Ultra</h3>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="step-icon">1</div>
+                <h5>Download</h5>
+                <p class="small text-muted">Scarica il pacchetto ZIP per Windows o Linux dal nostro hub.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="step-icon">2</div>
+                <h5>PC-Code</h5>
+                <p class="small text-muted">Avvia l'eseguibile sul tuo computer per generare il tuo codice hardware unico.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="step-icon">3</div>
+                <h5>Pagamento</h5>
+                <p class="small text-muted">Invia 5 USDT e trasmetti il tuo PC-Code tramite il nostro canale ufficiale.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="step-icon">4</div>
+                <h5>Attivazione</h5>
+                <p class="small text-muted">Ricevi il file di licenza a vita valido esclusivamente per il tuo PC.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="container py-5 text-center">
+        <div class="card-custom py-5">
+            <h2 class="fw-900 mb-4">Pronto per il Battleground?</h2>
+            <div class="row justify-content-center g-3">
+                <div class="col-md-4">
+                    <a href="Keygap_Ultra_Windows.zip" class="download-btn">
+                        <i class="fab fa-windows fa-2x"></i>
+                        <div class="text-start">
+                            <div class="small text-muted">Versione Windows</div>
+                            <div class="fw-bold">Download .ZIP</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="Keygap_Ultra_Linux.zip" class="download-btn">
+                        <i class="fab fa-linux fa-2x"></i>
+                        <div class="text-start">
+                            <div class="small text-muted">Versione Linux</div>
+                            <div class="fw-bold">Download .ZIP</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p class="mt-4 text-muted small"><i class="fas fa-info-circle"></i> Licenza hardware-lock inclusa per ogni installazione.</p>
+        </div>
+    </section>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="text-muted small">© 2026 Keygap Neural Trading System. All rights reserved.</p>
+            <p class="text-muted small">Trading involve risk. Use responsibly.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
